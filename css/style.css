@@ -1,0 +1,105 @@
+body {
+    background-color:#d3caca;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #828282;
+    margin-right: 50px;
+}
+
+nav>a:hover {
+    text-decoration: none;
+    color: #292929;
+    margin-right: 50px;
+}
+
+hr {
+    border: none;
+    background-color: #828282;
+    color: #828282;
+    height: 2px;
+    width: 70%;
+    text-align: center;
+}
+
+header {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: #292929;
+    text-align: center;
+
+
+    
+}
+
+header>h2 {
+    font-size: 50px;
+    text-align: right;
+}
+
+header>p {
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.lang {
+    display: flex;
+    margin: auto;
+    color: #828282;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    -ms-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+}
+
+.lang button {
+    color: #828282;
+    border: none;
+    background-color:transparent; 
+    font-size: 20px;
+}
+
+.lang button:hover {
+    color: #292929;
+}
+
+.lang button:active {
+    color: #292929;
+}
+
+.main {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.photo {
+    margin: auto;
+
+    text-align: center;
+    
+}
+
+.photo img{
+    width: 940px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+main h3 {
+    font-size: 30px;
+}
