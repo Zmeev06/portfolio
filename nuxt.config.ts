@@ -48,6 +48,6 @@ export default defineNuxtConfig({
     ]
   },
   modules: [],
-  css: ['/src/assets/styles/main.css'],
+  css: ['/src/assets/styles/main.css', '/src/assets/styles/variables.css'],
   devtools: { enabled: true }
 })

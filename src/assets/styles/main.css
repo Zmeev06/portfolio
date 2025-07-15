@@ -94,4 +94,10 @@ input[type='file'] {
 
 body {
     background-color: #0F172B;
+    font-family: "Fira Code", monospace;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/FiraCode-VariableFont_wght.ttf');
 }
