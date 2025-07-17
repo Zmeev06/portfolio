@@ -17,5 +17,6 @@ import SnakeGame from '~/src/components/features/SnakeGame/snake-game.vue'
   align-items: center;
   justify-content: center;
   height: 100%;
+  gap: 146px;
 }
 </style>
